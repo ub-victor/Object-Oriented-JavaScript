@@ -34,7 +34,17 @@ var userTwo ={
 
 // Create user three
 
-
+var userTwo ={  
+    email: 'ryu@victorine.com',  
+    name: 'Yoshi',  
+    friends: ['Ryu', 'Mario'],  
+    login(){  
+        console.log(this.email, 'has logged in');  
+    },  
+    logout(){  
+        console.log(this.email, 'has logged out');  
+    }  
+};
 
 var userOneEmail = 'ryu@Constant.com';
 var userOneName = 'Mario';
