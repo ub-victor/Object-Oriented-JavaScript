@@ -34,10 +34,10 @@ var userTwo ={
 
 // Create user three
 
-var userTwo ={  
+var userThree ={  
     email: 'ryu@victorine.com',  
-    name: 'Yoshi',  
-    friends: ['Ryu', 'Mario'],  
+    name: 'Mario',  
+    friends: [['Yoshi']],  
     login(){  
         console.log(this.email, 'has logged in');  
     },  
@@ -45,24 +45,3 @@ var userTwo ={
         console.log(this.email, 'has logged out');  
     }  
 };
-
-var userOneEmail = 'ryu@Constant.com';
-var userOneName = 'Mario';
-var userOneFriends = ['Yoshi'];
-
-function login(email){
-    console.log(email, "is now online")
-}
-
-function logout(email){
-    console.log(email, "has logged out")
-}
-
-
-function logFriends(friends){
-    friends.forEach(friends =>{
-        console.log(friends)
-    });
-}
-
-login(userOneEmail);
