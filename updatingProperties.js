@@ -23,7 +23,7 @@ userOne.age = 25;
 var userTwo ={  
     email: 'ryu@victorine.com',  
     name: 'Yoshi',  
-    friends: ['Ryu', 'Mario'],  
+    friends: ['Ryu'],  
     login(){  
         console.log(this.email, 'has logged in');  
     },  
@@ -37,7 +37,7 @@ var userTwo ={
 var userThree ={  
     email: 'ryu@constant.com',  
     name: 'Mario',  
-    friends: [['Yoshi']],  
+    friends: ['Yoshi'],
     login(){  
         console.log(this.email, 'has logged in');  
     },  
