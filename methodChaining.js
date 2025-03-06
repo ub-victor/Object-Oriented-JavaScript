@@ -18,5 +18,8 @@ var userS = new User('ryu@victorine.com', 'Victorine');
 
 console.log(userF);
 console.log(userS);
-//
 //userOne.login(); 
+
+// Method chaining: calling multiple methods on the same object in a single statement
+userF.login().logout();
+userS.login().logout();
