@@ -32,10 +32,6 @@ var userTwo ={
     }  
 };
 
-var userOneEmail = 'ryu@victorine.com';
-var userOneName = 'Yoshi';
-var userOneFriends = ['Ryu', 'Mario'];
-
 // Create user three
 
 var userOneEmail = 'ryu@Constant.com';
