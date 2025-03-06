@@ -16,3 +16,17 @@ var userOneEmail = 'ryu@Constant.com';
 var userOneName = 'Mario';
 var userOneFriends = ['Yoshi'];
 
+function login(email){
+    console.log(email, "is now online")
+}
+
+function logout(email){
+    console.log(email, "has logged out")
+}
+
+
+function logFriends(friends){
+    friends.forEach(friends =>{
+        console.log(friends)
+    });
+}
