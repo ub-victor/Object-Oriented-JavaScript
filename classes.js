@@ -19,4 +19,4 @@ class User {
 // eg: var userOne = new User();
 // the constructor method is called when a new instance of a class is created
 var userOne = new User('ryu@victor.com', 'Victor');
-ar userTwo = new User();
+ar userTwo = new User('ryu@victorine.com', 'Victorine');
