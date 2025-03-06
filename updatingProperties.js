@@ -34,6 +34,8 @@ var userTwo ={
 
 // Create user three
 
+
+
 var userOneEmail = 'ryu@Constant.com';
 var userOneName = 'Mario';
 var userOneFriends = ['Yoshi'];
