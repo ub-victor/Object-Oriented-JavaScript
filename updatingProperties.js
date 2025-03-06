@@ -34,14 +34,14 @@ var userTwo ={
 
 // Create user three
 
-var userThree ={  
-    email: 'ryu@constant.com',  
-    name: 'Mario',  
-    friends: ['Yoshi'],
-    login(){  
-        console.log(this.email, 'has logged in');  
-    },  
-    logout(){  
-        console.log(this.email, 'has logged out');  
-    }  
+var userThree ={
+    email: 'ryu@constant.com',
+    name: 'Mario',
+    friends: ["Yoshi"],
+    login(){
+        console.log(this.email, 'has logged in');
+    },
+    logout(){
+        console.log(this.email, 'has logged out');
+    }
 };
