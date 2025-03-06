@@ -30,3 +30,5 @@ function logFriends(friends){
         console.log(friends)
     });
 }
+
+login(userOneEmail);
