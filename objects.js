@@ -1,16 +1,14 @@
-// Create user one
-var userOne ={
-    email: 'ryu@victor.com',
-    name: 'Ryu',
-    friends: 'Yoshi',
-    login(){
-        console.log(this.email, 'has logged in');
-    },
-    logout(){
-        console.log(this.email, 'has logged out');
-    }
-};
+// Create user one  
+var userOne ={  
+    email: 'ryu@victor.com',  
+    name: 'Ryu',  
+    friends: 'Yoshi',  
+    login(){  
+        console.log(this.email, 'has logged in');  
+    },  
+    logout(){  
+        console.log(this.email, 'has logged out');  
+    }  
+};  
 
-console.log(userOne.friends);
-
-
+userOne.login();  // Correct way to call the login method  
