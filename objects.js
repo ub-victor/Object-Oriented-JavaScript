@@ -1,6 +1,6 @@
 // Create user one
 var userOne ={
-    eamil: 'ryu@victor.com',
+    email: 'ryu@victor.com',
     name: 'Ryu',
     friends: 'Yoshi',
     login(){
