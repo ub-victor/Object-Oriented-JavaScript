@@ -10,5 +10,3 @@ var userOne ={
         console.log(this.email, 'has logged out');  
     }  
 };  
-
-userOne.login();  // Correct way to call the login method  
