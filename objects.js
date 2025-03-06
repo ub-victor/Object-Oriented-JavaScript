@@ -1,8 +1,15 @@
 // Create user one
-
-var userOneEmail = 'ryu@victor.com';
-var userOneName = 'Ryu';
-var userOneFriends = ['Yoshi']
+var userOne ={
+    eamil: 'ryu@victor.com',
+    name: 'Ryu',
+    friends: 'Yoshi',
+    login(){
+        console.log(this.email, 'has logged in');
+    },
+    logout(){
+        console.log(this.email, 'has logged out');
+    }
+}
 
 // Create user two
 
@@ -32,3 +39,4 @@ function logFriends(friends){
 }
 
 login(userOneEmail);
+
