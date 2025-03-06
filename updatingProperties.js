@@ -23,7 +23,7 @@ userOne.age = 25;
 var userTwo ={  
     email: 'ryu@victorine.com',  
     name: 'Yoshi',  
-    friends: ['Ryu'],  
+    friends: ['Ryu', 'Mario'],  
     login(){  
         console.log(this.email, 'has logged in');  
     },  
