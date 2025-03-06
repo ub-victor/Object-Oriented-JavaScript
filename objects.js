@@ -12,6 +12,7 @@ var userOneFriends = ['Ryu', 'Mario'];
 
 // Create user three
 
-var userOneEmail = 'ryu@victorine.com';
+var userOneEmail = 'ryu@Constant.com';
 var userOneName = 'Yoshi';
 var userOneFriends = ['Ryu', 'Mario'];
+
