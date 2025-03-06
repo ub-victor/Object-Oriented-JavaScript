@@ -10,3 +10,4 @@ var userOne ={
         console.log(this.email, 'has logged out');  
     }  
 };  
+
