@@ -11,3 +11,4 @@ var userOne ={
     }  
 };  
 
+userOne.name = 'Victor';
