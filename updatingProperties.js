@@ -35,7 +35,7 @@ var userTwo ={
 // Create user three
 
 var userThree ={  
-    email: 'ryu@victorine.com',  
+    email: 'ryu@constant.com',  
     name: 'Mario',  
     friends: [['Yoshi']],  
     login(){  
