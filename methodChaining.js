@@ -2,6 +2,7 @@ class Users {
     constructor(email, name){
         this.email = email;
         this.name = name;
+        this.score = 0;
 
     }
     login(){
@@ -10,6 +11,9 @@ class Users {
     logout(){
         console.log(this.email, 'just logged out');
     }
+    updatedScore() {
+        
+    },
 }
 
 var userF = new User('ryu@victor.com', 'Victor');
