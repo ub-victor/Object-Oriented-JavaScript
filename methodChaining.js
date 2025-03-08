@@ -7,13 +7,16 @@ class Users {
     }
     login(){
         console.log(this.email, 'just logged in');
+        return this;
     }
     logout(){
         console.log(this.email, 'just logged out');
+        return this;
     }
     updatedScore() {
         this.score++;
         console.log(this.email, "Score is now", this.score);
+        return this;
     }
 }
 
