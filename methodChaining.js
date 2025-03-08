@@ -14,15 +14,12 @@ class Users {
     updatedScore() {
         this.score++;
         console.log(this.email, "Score is now", this.score);
-    },
+    }
 }
 
 var userF = new User('ryu@victor.com', 'Victor');
 var userS = new User('ryu@victorine.com', 'Victorine');
 
-
-console.log(userF);
-console.log(userS);
 //userOne.login(); 
 
 // Method chaining: calling multiple methods on the same object in a single statement
