@@ -23,4 +23,3 @@ console.log(userS);
 // Method chaining: calling multiple methods on the same object in a single statement
 userF.login().logout();
 userS.login().logout();//7 ,1:57:
-
