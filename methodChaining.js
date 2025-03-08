@@ -26,3 +26,4 @@ var userS = new User('ryu@victorine.com', 'Victorine');
 //userOne.login(); 
 
 // Method chaining: calling multiple methods on the same object in a single statement
+userF.login().updatedScore().updatedScore().logout();
