@@ -12,7 +12,8 @@ class Users {
         console.log(this.email, 'just logged out');
     }
     updatedScore() {
-        
+        this.score++;
+        console.log(this.email, "Score is now", this.score);
     },
 }
 
