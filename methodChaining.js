@@ -20,8 +20,8 @@ class Users {
     }
 }
 
-var userF = new User('ryu@victor.com', 'Victor');
-var userS = new User('ryu@victorine.com', 'Victorine');
+var userF = new Users('ryu@victor.com', 'Victor');
+var userS = new Users('ryu@victorine.com', 'Victorine');
 
 //userOne.login(); 
 
