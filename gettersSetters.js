@@ -14,7 +14,16 @@ class Square {
     get area(){// Getter method ,when you call it call it without parentheses cuz it is a property
         return this.width * this.height;
     }
+
+    set area(area){
+        this,this.width = Math.sqrt(area);
+        this.height = this.width;
+    }
 }
 
 let square1 = new Square(25);
 console.log(square1.area); // 625
+
+square1.area = 4; //  This will not work because we have not defined a setter method for the area property. let define the settler method.
+
+console.log(square1.area);
