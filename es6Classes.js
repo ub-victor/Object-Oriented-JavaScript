@@ -18,6 +18,10 @@ class Rectangle { // Class declaration
     // it used to setup your Object
     constructor() { 
         console.log("Rectangle is created");
+
+        this.width = 5;
+        this.height= 3;
+        this.color = 'blue';
     }
 
 }
