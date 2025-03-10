@@ -22,7 +22,7 @@ class Square {
 }
 
 let square1 = new Square(25);
-console.log(square1.area); // 625
+//console.log(square1.area); // 625
 
 square1.area = 4; //  This will not work because we have not defined a setter method for the area property. let define the settler method.
 
