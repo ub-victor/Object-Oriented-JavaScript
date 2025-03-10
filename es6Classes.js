@@ -16,15 +16,15 @@
 
 class Rectangle { // Class declaration
     // it used to setup your Object
-    constructor() { 
+    constructor(width, height, color) { 
         console.log("Rectangle is created");
 
-        this.width = 5;
-        this.height= 3;
-        this.color = 'blue';
+        this.width = width;
+        this.height= height;
+        this.color = color;
     }
 
 }
 
-let myRectangle1 = new Rectangle(); // Object creation
-let myRectangle2 = new Rectangle();
+let myRectangle1 = new Rectangle(5,3,"blue"); // Object creation
+let myRectangle2 = new Rectangle(10,5,"red");
