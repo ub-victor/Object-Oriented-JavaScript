@@ -29,6 +29,10 @@ class Rectangle { // Class declaration
 
     }
 
+    printDescription(){
+        console.log(`I am a rectangle of ${this.width} x ${this.height} and I am ${this.color}`)
+    }
+
 }
 
 let myRectangle1 = new Rectangle(5,3,"blue"); // Object creation
