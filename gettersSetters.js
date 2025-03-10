@@ -14,3 +14,4 @@ class Square {
 }
 
 let square1 = new Square(25);
+console.log(square1.area); // 625
