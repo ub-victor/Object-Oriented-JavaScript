@@ -39,3 +39,4 @@ let myRectangle1 = new Rectangle(5,3,"blue"); // Object creation
 let myRectangle2 = new Rectangle(10,5,"red");
 
 console.log(myRectangle1.getArea());
+console.log(myRectangle2.printDescription());
