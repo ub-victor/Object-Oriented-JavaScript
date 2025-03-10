@@ -30,7 +30,7 @@ class Rectangle { // Class declaration
     }
 
     printDescription(){
-        console.log(`I am a rectangle of ${this.width} x ${this.height} and I am ${this.color}`)
+        console.log(`I am a rectangle of ${this.width} x ${this.height} = ${this.width}*${this.height} and I am ${this.color}`)
     }
 
 }
