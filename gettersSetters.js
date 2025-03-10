@@ -1,7 +1,7 @@
 class Square {
     constructor(_width){
         this.width = _width;
-        this.height = _width;
+        this.height = _width;// The height is set to the same value as the width by default.
 
     }
 
