@@ -22,9 +22,9 @@ class Square {
 }
 
 let square1 = new Square(25);
-console.log(square1.area); // 625
+console.log(square1.area); // 625 //for the getter
 
-square1.area = 4; // This will work because we have defined a setter method for the area property.
+square1.area = 4; // This will work because we have defined a setter method for the area property. 
 
 console.log(square1.area); // 16
 console.log(square1.width);
