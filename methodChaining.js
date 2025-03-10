@@ -20,6 +20,7 @@ class Users {
     }
 }
 
+// Creating objects
 var userF = new Users('ryu@victor.com', 'Victor');
 var userS = new Users('ryu@victorine.com', 'Victorine');
 
