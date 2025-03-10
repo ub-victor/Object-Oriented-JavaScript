@@ -14,3 +14,9 @@
         - jump
 */
 
+class Rectangle { 
+    constructor() {
+        console.log("Rectangle is created");
+    }
+
+}
