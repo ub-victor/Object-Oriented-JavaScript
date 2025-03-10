@@ -15,15 +15,17 @@ class Square {
         return this.width * this.height;
     }
 
-    set area(area){
-        this.width = Math.sqrt(area);
-        this.height = this.width;
+    set area (area){
+        this.width = area;
+        this.height = area;
     }
 }
 
 let square1 = new Square(25);
-//console.log(square1.area); // 625
+console.log(square1.area); // 625
 
-square1.area = 4; //  This will not work because we have not defined a setter method for the area property. let define the settler method.
+square1.area = 4; // This will work because we have defined a setter method for the area property.
 
-console.log(square1.area);
+console.log(square1.area); // 16
+console.log(square1.width);
+console.log(square1.height);
