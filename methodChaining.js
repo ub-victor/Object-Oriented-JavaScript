@@ -16,7 +16,7 @@ class Users {
     updatedScore() {
         this.score++;
         console.log(this.email, "Score is now", this.score);
-        return this;
+        return this; //here you can output it using console.log without getting undefined
     }
 }
 
