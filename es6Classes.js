@@ -23,3 +23,4 @@ class Rectangle { // Class declaration
 }
 
 let myRectangle1 = new Rectangle(); // Object creation
+let myRectangle2 = new Rectangle();
