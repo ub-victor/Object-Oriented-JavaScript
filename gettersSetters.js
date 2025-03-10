@@ -16,7 +16,7 @@ class Square {
     }
 
     set area(area){
-        this,this.width = Math.sqrt(area);
+        this.width = Math.sqrt(area);
         this.height = this.width;
     }
 }
