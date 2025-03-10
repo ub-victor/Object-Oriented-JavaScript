@@ -24,7 +24,14 @@ class Rectangle { // Class declaration
         this.color = color;
     }
 
+    getArea(){ // Method
+        return this.width * this.height;
+
+    }
+
 }
 
 let myRectangle1 = new Rectangle(5,3,"blue"); // Object creation
 let myRectangle2 = new Rectangle(10,5,"red");
+
+console.log(myRectangle1.getArea());
