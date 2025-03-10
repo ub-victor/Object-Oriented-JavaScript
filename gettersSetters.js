@@ -11,7 +11,7 @@ class Square {
     /*get area(){ ... }
 
     This defines a "getter" method called area. The get keyword is crucial here. It allows you to access the calculated area as if it were a property of the object, rather than a method you have to call with parentheses. */
-    get area(){
+    get area(){// Getter method ,when you call it call it without parentheses cuz it is a property
         return this.width * this.height;
     }
 }
