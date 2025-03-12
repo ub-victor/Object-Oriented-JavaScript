@@ -21,8 +21,10 @@ class Person {
 }
 
 class Admin extends Person {
-    deletePerson(persons){
-        
+    deletePerson(person){
+        persons = persons.filter(p => {
+            return p.emails != person.emails;
+        })
          
     }
 }
@@ -31,5 +33,6 @@ class Admin extends Person {
 // Creating objects
 var Person1 = new Person('ryu@victor.com', 'Victor');
 var Person2 = new Person('ryu@victorine.com', 'Victorine');
+var admin = new Admin("vainqueur@gmail.com", "Vainqueur");
 
 var persons = [Person1, Person2];
