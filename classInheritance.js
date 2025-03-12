@@ -37,5 +37,5 @@ var admin = new Admin("vainqueur@gmail.com", "Vainqueur");
 
 var persons = [Person1, Person2];
 
-admin.deletePerson(Person1);
+admin.deletePerson(Person2);
 console.log(persons);
