@@ -21,7 +21,8 @@ class Person {
 }
 
 class Admin extends Person {
-    deletePerson(){
+    deletePerson(persons){
+        
          
     }
 }
