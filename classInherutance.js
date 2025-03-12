@@ -1,8 +1,8 @@
-class Users {
+class Person {
     constructor(email, name){
         this.email = email;
         this.name = name;
-        this.score = 0;
+        this.scores = 0;
 
     }
     login(){
@@ -14,15 +14,15 @@ class Users {
         return this;
     }
     updatedScore() {
-        this.score++;
+        this.scores++;
         console.log(this.email, "Score is now", this.score);
         return this; //here you can output it using console.log without getting undefined
     }
 }
 
 // Creating objects
-var userF = new Users('ryu@victor.com', 'Victor');
-var userS = new Users('ryu@victorine.com', 'Victorine');
+var Person1 = new Person('ryu@victor.com', 'Victor');
+var Person2 = new Person('ryu@victorine.com', 'Victorine');
 
 
 userF.login().updatedScore().updatedScore().logout();
