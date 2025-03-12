@@ -26,3 +26,4 @@ class Admin extends Person {
     }
 }
 
+// Creating objects
