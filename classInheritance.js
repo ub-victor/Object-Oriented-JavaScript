@@ -31,4 +31,3 @@ class Admin extends Person {
 var Person1 = new Person('ryu@victor.com', 'Victor');
 var Person2 = new Person('ryu@victorine.com', 'Victorine');
 
-
