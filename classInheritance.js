@@ -20,12 +20,19 @@ class Person {
     }
 }
 
+/**
+ * Represents an Admin who can delete a person.
+ * @extends Person
+ */
 class Admin extends Person {
+    /**
+     * Deletes a person from the list of persons.
+     * @param {Object} person - The person to be deleted.
+     */
     deletePerson(person){
         persons = persons.filter(p => {
             return p.emails != person.emails;
         })
-         
     }
 }
 
@@ -35,7 +42,7 @@ var Person1 = new Person('ryu@victor.com', 'Victor');
 var Person2 = new Person('ryu@victorine.com', 'Victorine');
 var admin = new Admin("vainqueur@gmail.com", "Vainqueur");
 
-var persons = [Person1, Person2];
+var persons = [Person1, Person2, admin];
 
 admin.deletePerson(Person2);
 console.log(persons);
