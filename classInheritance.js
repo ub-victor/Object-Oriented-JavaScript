@@ -36,3 +36,6 @@ var Person2 = new Person('ryu@victorine.com', 'Victorine');
 var admin = new Admin("vainqueur@gmail.com", "Vainqueur");
 
 var persons = [Person1, Person2];
+
+admin.deletePerson(Person1);
+console.log(persons);
