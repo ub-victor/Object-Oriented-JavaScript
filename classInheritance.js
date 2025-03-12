@@ -27,11 +27,11 @@ class Admin extends Person {
     }
 }
 
-var Person1 = new Person('ryu@victor.com', 'Victor');
-var Person2 = new Person('ryu@victorine.com', 'Victorine');
+var person1 = new Person('ryu@victor.com', 'Victor');
+var person2 = new Person('ryu@victorine.com', 'Victorine');
 var admin = new Admin("vainqueur@gmail.com", "Vainqueur");
 
-var persons = [Person1, Person2, admin];
+var persons = [person1, person2, admin];
 
-admin.deletePerson(Person2);
+admin.deletePerson(person2);
 console.log(persons);
