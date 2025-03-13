@@ -19,6 +19,7 @@ class Person {
     }
 }
 
+/*The deleteUser method filters the users array, removing the specified user (userOne), resulting in a new array that only includes users whose emails do not match "victoire@gmail.com" (i.e., userTwo and admin). After the filtering process, the remaining users are [userTwo, admin]. */
 class Admin extends Person {
     deletePerson(person){
         persons = persons.filter(p => {
