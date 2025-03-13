@@ -18,3 +18,11 @@ class User {
         return this;
     }
 }
+
+class Admin  extends User{
+    deleteUser(user){
+        users = users.filter(u =>{
+            return u.email != user.email
+        })
+    }
+}
