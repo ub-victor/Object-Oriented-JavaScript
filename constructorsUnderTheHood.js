@@ -14,6 +14,6 @@ var p1 = new People('ryu@victor.com', 'Victor');
 var p2 = new People('ryu@victorine.com', 'Victorine');
 
 console.log(p1);
-console.log(p2);
+p1.login();
 
 
