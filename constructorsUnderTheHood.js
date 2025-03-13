@@ -2,15 +2,20 @@ function People(email, name) {
     this.email = email;  
     this.name = name;  
     this.online = false;  
-    //this.logins = function() {  
-    //    console.log(this.email, 'has logged in');  
-    }  
+    /*this.logins = function() {  
+       console.log(this.email, 'has logged in');  
+    }*/  
 }  
 
 // what is a prototype?
 // A prototype is a property of a function that points to an object.
 //eg: People.prototype
 People.prototype.login = function(){
+    this.online = true;
+    console.log(this.email, 'has logged in');
+}
+
+People.prototype.logout = function(){
     this.online = true;
     console.log(this.email, 'has logged in');
 }
