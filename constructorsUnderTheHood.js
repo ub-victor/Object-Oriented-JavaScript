@@ -8,4 +8,5 @@ function People(email, name) {
 }  
 
 var p1 = new People('ryu@victor.com', 'Victor');  
-p1.login(); // This should display: "ryu@victor.com has logged in"  
+var p2 = new People('ryu@constant.com', 'Constant'); 
+p1.logins(); // This should display: "ryu@victor.com has logged in"  
