@@ -24,3 +24,9 @@ var p1 = new People('ryu@victor.com', 'Victor');
 var p2 = new People('ryu@constant.com', 'Constant'); 
 console.log(p1);
 p1.logins(); // This should display: "ryu@victor.com has logged in"  
+
+// Demonstrating the difference  
+// p1.logout(); // This executes the method and logs "ryu@victor.com has logged out"  
+
+// p1.logout;   // This references the logout method without executing it  
+// You can later execute it like this: p1.logout(); // It can be executed here  
