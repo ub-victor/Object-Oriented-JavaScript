@@ -35,4 +35,8 @@ var admin = new Admin("vainqueur@gmail.com", "Vainqueur");
 var persons = [person1, person2, admin];
 
 admin.deletePerson(person1);
+// The deleteUser(user) method takes a user object (userOne) as a parameter,  
+// and filters the global users array to exclude the user whose email matches  
+// user.email. This effectively removes userOne from the array, leaving only  
+// users with different emails (userTwo and admin) in the final array.  
 console.log(persons);
