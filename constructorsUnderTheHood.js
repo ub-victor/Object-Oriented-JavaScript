@@ -4,6 +4,7 @@ function People (email, name){
     this.online = false;
     this.login = function(){
         console.log(this.email, 'has logged in');
+        return this
     }
     this.logout = function(){
         console.log(this.email, "has logged out")
