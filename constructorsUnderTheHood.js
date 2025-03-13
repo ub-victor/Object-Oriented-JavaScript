@@ -1,20 +1,11 @@
-function People (email, name){
-    this.email = email;
-    this.name = name;
-    this.online = false;
-    this.login = function(){
-        console.log(this.email, 'has logged in');
-        return this
-    }
-    this.logout = function(){
-        console.log(this.email, "has logged out")
-    }
-}
+function People(email, name) {  
+    this.email = email;  
+    this.name = name;  
+    this.online = false;  
+    this.logins = function() {  
+        console.log(this.email, 'has logged in');  
+    }  
+}  
 
-var p1 = new People('ryu@victor.com', 'Victor');
-var p2 = new People('ryu@victorine.com', 'Victorine');
-
-console.log(p1);
-p1.login();
-
-
+var p1 = new People('ryu@victor.com', 'Victor');  
+p1.login(); // This should display: "ryu@victor.com has logged in"  
