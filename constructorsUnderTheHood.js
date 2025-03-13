@@ -17,7 +17,7 @@ People.prototype.login = function(){
 
 People.prototype.logout = function(){
     this.online = false;
-    console.log(this.email, 'has logged in');
+    console.log(this.email, 'has logged out');
 }
 
 var p1 = new People('ryu@victor.com', 'Victor');  
