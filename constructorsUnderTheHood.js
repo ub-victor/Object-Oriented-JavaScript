@@ -10,12 +10,12 @@ function People(email, name) {
 // what is a prototype?
 // A prototype is a property of a function that points to an object.
 //eg: People.prototype
-People.prototype.login = function(){
+People.prototype.login = function (){
     this.online = true;
     console.log(this.email, 'has logged in');
 }
 // here the function login , will not be show in the object p1, but it will be in the prototype of the object p1
-People.prototype.logout = function(){
+People.prototype.logout = function (){
     this.online = false;
     console.log(this.email, 'has logged out');
 }
