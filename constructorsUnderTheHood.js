@@ -16,7 +16,7 @@ People.prototype.login = function(){
 }
 
 People.prototype.logout = function(){
-    this.online = true;
+    this.online = false;
     console.log(this.email, 'has logged in');
 }
 
