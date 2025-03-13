@@ -14,7 +14,7 @@ People.prototype.login = function(){
     this.online = true;
     console.log(this.email, 'has logged in');
 }
-
+// here the function login , will not be show in the object p1, but it will be in the prototype of the object p1
 People.prototype.logout = function(){
     this.online = false;
     console.log(this.email, 'has logged out');
@@ -22,4 +22,5 @@ People.prototype.logout = function(){
 
 var p1 = new People('ryu@victor.com', 'Victor');  
 var p2 = new People('ryu@constant.com', 'Constant'); 
+console.log(p1);
 p1.logins(); // This should display: "ryu@victor.com has logged in"  
