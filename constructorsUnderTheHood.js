@@ -21,10 +21,11 @@ People.prototype.logout = function (){
 }
 
 function Adm (){
-    
+
 }
 var p1 = new People('ryu@victor.com', 'Victor');  
 var p2 = new People('ryu@constant.com', 'Constant'); 
+var adm = new Adm();
 console.log(p1);
 p1.logins(); // This should display: "ryu@victor.com has logged in"  
 
