@@ -28,11 +28,20 @@ function Adm (...args){// this is a rest operator which is used to adm arguments
 
 Adm.prototype = Object.create(People.prototype);
 
+// To add a new method to the prototype of Adm only
+Adm.prototype.deletePeople = function (person){
+    people = people.filter(p => {
+        return p.email != person.email;
+    })
+}
+
 var p1 = new People('ryu@victor.com', 'Victor');  
 var p2 = new People('ryu@constant.com', 'Constant'); 
 var adm = new Adm("kakule@gmail.com", "joker");
+var people = [p1, p2, adm];
 console.log(p1);
-p1.logins(); // This should display: "ryu@victor.com has logged in"  
+p1.logins(); // This should display: "ryu@victor.com has logged in" 
+// adm.deletePeople(p1); // This should remove p1 from the people array 
 
 // Demonstrating the difference  
 // p1.logout(); // This executes the method and logs "ryu@victor.com has logged out"  
