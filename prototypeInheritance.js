@@ -11,3 +11,5 @@ function Dog(name, breed) {
     this.breed = breed;  
 }  
 
+Dog.prototype = Object.create(Animal.prototype);  
+Dog.prototype.constructor = Dog; // Set the constructor property to Dog  
