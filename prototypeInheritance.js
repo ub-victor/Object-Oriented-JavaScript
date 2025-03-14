@@ -21,4 +21,3 @@ Dog.prototype.speak = function() {
 const dog = new Dog('Rex', 'German Shepherd');  
 dog.speak();  // Output: Rex barks.  
 console.log(dog.breed);  // Output: German Shepherd  
-
