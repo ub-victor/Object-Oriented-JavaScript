@@ -21,6 +21,7 @@ People.prototype.logout = function (){
 }
 
 function Adm (...args){
+    People.apply(this, args);
 }
 
 var p1 = new People('ryu@victor.com', 'Victor');  
