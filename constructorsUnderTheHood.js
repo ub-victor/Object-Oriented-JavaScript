@@ -20,14 +20,14 @@ People.prototype.logout = function (){
     console.log(this.email, 'has logged out');
 }
 
-function Adm (){
-
+function Adm (...args){
 }
+
 var p1 = new People('ryu@victor.com', 'Victor');  
 var p2 = new People('ryu@constant.com', 'Constant'); 
 var adm = new Adm();
 console.log(p1);
-p1.logins(); // This should display: "ryu@victor.com has logged in"  
+p1.logins("kakule@gmail.com", "joker"); // This should display: "ryu@victor.com has logged in"  
 
 // Demonstrating the difference  
 // p1.logout(); // This executes the method and logs "ryu@victor.com has logged out"  
