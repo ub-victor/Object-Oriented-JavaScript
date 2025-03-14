@@ -20,6 +20,7 @@ People.prototype.logout = function (){
     console.log(this.email, 'has logged out');
 }
 
+
 var p1 = new People('ryu@victor.com', 'Victor');  
 var p2 = new People('ryu@constant.com', 'Constant'); 
 console.log(p1);
