@@ -26,9 +26,9 @@ function Adm (...args){// this is a rest operator which is used to adm arguments
 
 var p1 = new People('ryu@victor.com', 'Victor');  
 var p2 = new People('ryu@constant.com', 'Constant'); 
-var adm = new Adm();
+var adm = new Adm("kakule@gmail.com", "joker");
 console.log(p1);
-p1.logins("kakule@gmail.com", "joker"); // This should display: "ryu@victor.com has logged in"  
+p1.logins(); // This should display: "ryu@victor.com has logged in"  
 
 // Demonstrating the difference  
 // p1.logout(); // This executes the method and logs "ryu@victor.com has logged out"  
