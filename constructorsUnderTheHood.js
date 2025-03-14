@@ -20,7 +20,7 @@ People.prototype.logout = function (){
     console.log(this.email, 'has logged out');
 }
 
-function Adm (...args){
+function Adm (...args){// this is a rest operator which is used to adm arguments separately 
     People.apply(this, args);
 }
 
