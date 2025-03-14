@@ -22,7 +22,11 @@ People.prototype.logout = function (){
 
 function Adm (...args){// this is a rest operator which is used to adm arguments separately 
     People.apply(this, args);
+    this.role = 'super admin';
 }
+// To inherit the prototype of People in the prototype of Adm
+
+Adm.prototype = Object.create(People.prototype);
 
 var p1 = new People('ryu@victor.com', 'Victor');  
 var p2 = new People('ryu@constant.com', 'Constant'); 
